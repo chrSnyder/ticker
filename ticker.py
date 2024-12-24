@@ -1,6 +1,7 @@
 # ticker.py
 # this function takes a string and rolls it across one line of terminal output like a stock ticker one time. 
 
+
 def ticker(text, windowSize, refreshLapse):
 	text = " "*windowSize + text
 	charLeft = len(text)
